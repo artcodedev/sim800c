@@ -3,8 +3,6 @@
 
 import { Sim800c } from "./Sim800c.mjs";
 
-
-
 /*
 *** linux: sudo node example.mjs
 *** Windows: node example.mjs
