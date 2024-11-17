@@ -17,7 +17,4 @@ await sim800c.openPortSim800c();
 
 let allMessage = await sim800c.getAllMessages();
 
-console.log(allMessage);
-
-
 await sim800c.closePortSim800c();
