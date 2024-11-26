@@ -63,7 +63,7 @@ export class Sim800c {
                 const phone = spliMassMessage[2].replaceAll('"', '')
 
                 const message = {
-                    id: i++,
+                    id: (i + 1).toString(),
                     phone: phone,
                     date: spliMassMessage[4],
                     message: await this.#decodeUCS2(spliMassMessage[5].split('\r\n')[1])
